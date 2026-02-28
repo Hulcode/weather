@@ -1,0 +1,13 @@
+@font-face {
+  font-family: main;
+  src: url(../fonts/NotoKufiArabic-Bold.ttf);
+  weight: 300;
+}
+.app-card {
+  transform: translateY(-50%);
+}
+@media (max-width: 500px) {
+  .app-card {
+    padding: 0 !important;
+  }
+}
